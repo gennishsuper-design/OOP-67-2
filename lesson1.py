@@ -1,30 +1,28 @@
+# def test():
+#     print("test")
+#
+# test()
+
 class Hero:
-    # Консктруктор класса Hero, который принимает имя героя, его здоровье и урон.
+    # Конструктор класса
     def __init__(self, name, lvl, hp):
-        # Атрибуты класса
+        # Атрибуты объекта класса
         self.name = name
         self.lvl = lvl
         self.hp = hp
-        
-        
-def rest(self):
-    return f"{self.name} отдыхает на чили на расслабоне."
+    # Метод класса
+    def rest(self):
+        return  f"{self.name} Отдыхает на чиле на расслабоне!!"
 
-# Обьект Экземпляр на основе класса
+# Объект|Экземпляр на основе класса
 kirito = Hero("Kirito", 100, 1000)
 asuna = Hero("Asuna", 111, 1111)
-
-# print(kirito.name)  # Выводит имя героя
-# print(kirito.lvl)   # Выводит уровень героя
-# print(kirito.hp)    # Выводит здоровье героя
-
-# print(asuna.name)
-# print(asuna.lvl)
-# print(asuna.hp)
-
 print(kirito.rest())
 print(asuna.rest())
-my_str_1 = "Hello"
-my_str_2 = "World"
-print(my_str_1 .capitalize())  # Выводит "Hello"
-print(my_str_2 .capitalize())  # Выводит "World"
+my_str_1 = "hgfds"
+my_str_2 = "hgfds"
+print(my_str_1.capitalize())
+print(my_str_2.capitalize())
+
+# MageHero
+# hero_kirito

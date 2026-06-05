@@ -28,8 +28,37 @@ class Test:
 #
 # print(str_1)
 # print(obj_1.value)
+#
+# my_list_2 = Test([1, 2, 34, 45])
+# my_list = [1, 2, 34, 5, 6, 7]
+#
+# print(my_list_2[2])
 
-my_list_2 = Test([1, 2, 34, 45])
-my_list = [1, 2, 34, 5, 6, 7]
 
-print(my_list[2])
+# my_int = 123
+# my_int_2 = 123
+# my_list = [1, 2, 34, 5, 6, 7]
+# my_str = 'text'
+# int_2 = Test('13')
+#
+#
+# print(my_int)
+# print(my_str)
+# print(my_int_2)
+# print(my_list)
+# print(int_2)
+
+
+class Money:
+    def convert_money(self  , value, currency):
+        pass
+    
+    def __init__(self, value, currency):
+        self.value = value
+        self.currency = currency
+
+    def __add__(self, other):
+        if self.currency == other.currency:
+            return self.value + other.value
+        else:
+            print('Не можем сложить. Разные валюты')

@@ -31,3 +31,16 @@ git commit -m "Commit name"
 git push origin master/main
 
 5) git branch name_branche
+
+production | hotfix/register
+
+test | stage release/1.0.0 -> production/
+
+develop
+
+feat/register
+feat/login
+feat/booking 
+feat/create_order
+
+-m "feat: register added file servise register.py Link"
